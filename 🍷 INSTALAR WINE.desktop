@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=🍷 INSTALAR WINE
+Comment=Configura automaticamente o Wine Portable
+Icon=wine
+Terminal=true
+Exec=bash -c 'DIR="$(dirname "$(readlink -f "$1")")"; exec bash "$DIR/instalar.sh"' _ %k
+Categories=Utility;
